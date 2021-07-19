@@ -12,7 +12,7 @@ import uploadRoutes from "./routes/uploadRoutes.js";
 
 dotenv.config();
 
-connectDB();
+await connectDB();
 
 const app = express();
 
